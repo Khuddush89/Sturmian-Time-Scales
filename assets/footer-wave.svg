@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title">
+  <title id="title">Decorative purple, pink, and cyan waves</title>
+  <defs><linearGradient id="g"><stop stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#EC4899"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+  <path d="M0 70 C200 5 400 135 600 70 S1000 5 1200 70 V140 H0Z" fill="url(#g)" opacity="0.22">
+    <animate attributeName="d" values="M0 70 C200 5 400 135 600 70 S1000 5 1200 70 V140 H0Z;M0 70 C200 135 400 5 600 70 S1000 135 1200 70 V140 H0Z;M0 70 C200 5 400 135 600 70 S1000 5 1200 70 V140 H0Z" dur="10s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 94 C200 140 400 40 600 94 S1000 140 1200 94 V140 H0Z" fill="url(#g)" opacity="0.58">
+    <animate attributeName="d" values="M0 94 C200 140 400 40 600 94 S1000 140 1200 94 V140 H0Z;M0 94 C200 40 400 140 600 94 S1000 40 1200 94 V140 H0Z;M0 94 C200 140 400 40 600 94 S1000 140 1200 94 V140 H0Z" dur="8s" repeatCount="indefinite"/>
+  </path>
+</svg>

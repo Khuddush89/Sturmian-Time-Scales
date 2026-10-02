@@ -1,0 +1,32 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+version-resolver:
+  major:
+    labels: [breaking]
+  minor:
+    labels: [enhancement]
+  patch:
+    labels: [bug, dependencies, documentation, mathematics, tests, visuals, data, ci]
+  default: patch
+categories:
+  - title: '✨ Features'
+    labels: [enhancement]
+  - title: '🐛 Corrections'
+    labels: [bug]
+  - title: '📐 Mathematics and data'
+    labels: [mathematics, data]
+  - title: '📚 Documentation and visuals'
+    labels: [documentation, visuals]
+  - title: '🧪 Tests and maintenance'
+    labels: [tests, dependencies, ci]
+change-template: '- $TITLE (#$NUMBER)'
+change-title-escapes: '\<*_&'
+template: |
+  ## What's changed
+
+  $CHANGES
+
+  ## Reproduce
+
+  Run `sturmian verify` followed by `sturmian figures` with the same output directory.
+  Review CI evidence and the changelog before publishing this draft.

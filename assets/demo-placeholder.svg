@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="255" viewBox="0 0 1000 255" role="img" aria-labelledby="title desc">
+  <title id="title">Terminal recording placeholder</title>
+  <desc id="desc">Add a real GIF showing verification and figure generation.</desc>
+  <defs><linearGradient id="g"><stop stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#EC4899"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+  <rect x="1" y="1" width="998" height="253" rx="18" fill="#0D1020" stroke="url(#g)"/>
+  <circle cx="29" cy="28" r="5" fill="#EC4899"/><circle cx="48" cy="28" r="5" fill="#8B5CF6"/><circle cx="67" cy="28" r="5" fill="#06B6D4"/>
+  <text x="94" y="33" fill="#94A3B8" font-family="DejaVu Sans Mono,monospace" font-size="12">RECORDING PLACEHOLDER</text>
+  <text x="40" y="94" fill="#D7C7FF" font-family="DejaVu Sans Mono,monospace" font-size="17">$ sturmian verify --output outputs/demo</text>
+  <text x="40" y="131" fill="#8EE0EC" font-family="DejaVu Sans Mono,monospace" font-size="17">$ sturmian figures --output outputs/demo</text>
+  <text x="40" y="190" fill="#CBD5E1" font-family="DejaVu Sans,Arial,sans-serif" font-size="16">Add a GIF from your own run to assets/demos/verification.gif.</text>
+  <text x="40" y="221" fill="#94A3B8" font-family="DejaVu Sans,Arial,sans-serif" font-size="13">The seven research figures above are already included.</text>
+</svg>

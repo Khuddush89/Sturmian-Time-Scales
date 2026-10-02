@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-02",
+  "python": "3.12.14",
+  "ruff": {
+    "version": "0.16.10",
+    "lint": "passed",
+    "format": "passed",
+    "files": 9
+  },
+  "pytest": {
+    "version": "9.1.1",
+    "passed": 19,
+    "failed": 0,
+    "seconds": 8.33,
+    "includes_complete_reference_verification": true
+  },
+  "reference_verification": {
+    "check_count": 535,
+    "passed": true
+  },
+  "build": {
+    "sdist": "passed",
+    "wheel": "passed",
+    "installed_wheel_in_separate_environment": true
+  },
+  "wheel_cli_from_outside_checkout": {
+    "verification_run.log": {
+      "exit_code": 0,
+      "seconds": 5.82
+    },
+    "figure_generation.log": {
+      "exit_code": 0,
+      "seconds": 7.26
+    }
+  },
+  "reference_outputs": {
+    "csv_count": 20,
+    "research_png_count": 7
+  },
+  "actionlint": {
+    "version": "1.7.12",
+    "workflow_count": 4,
+    "passed": true,
+    "shellcheck": "not run"
+  },
+  "media_and_local_links": {
+    "checked_local_links": 42,
+    "svg_count": 7,
+    "yaml_count": 9,
+    "pinned_action_uses": 10,
+    "social_preview_dimensions": [
+      1280,
+      640
+    ],
+    "errors": []
+  },
+  "visual_review": {
+    "hero": "passed",
+    "social_preview": "passed",
+    "typing_static_fallback": "passed",
+    "regenerated_research_figures": "passed"
+  },
+  "external_cards": {
+    "configured_from_official_service_documentation": true,
+    "local_HTTP_attempts": "403; not verified live from this environment",
+    "repository_cards_require_publication": true
+  },
+  "github_workflows_executed_remotely": false,
+  "excluded_material": [
+    "LaTeX",
+    "PDF",
+    "Apple resource forks",
+    "environments",
+    "caches",
+    "typesetting outputs",
+    "manuscript editorial diffs",
+    "temporary numerical runs"
+  ]
+}

@@ -1,0 +1,21 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.md', 'CITATION.cff']
+mathematics:
+  - changed-files:
+      - any-glob-to-any-file: ['src/sturmian/model.py', 'src/sturmian/verification.py']
+tests:
+  - changed-files:
+      - any-glob-to-any-file: ['tests/**']
+visuals:
+  - changed-files:
+      - any-glob-to-any-file: ['assets/**', 'src/sturmian/figures.py']
+data:
+  - changed-files:
+      - any-glob-to-any-file: ['data/**', 'reports/**']
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ['.github/**']
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file: ['pyproject.toml', 'requirements*.txt']

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="18" viewBox="0 0 1200 18" role="img" aria-label="Decorative section divider">
+  <defs><linearGradient id="g"><stop stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#EC4899"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+  <rect x="0" y="8" width="1200" height="2" rx="1" fill="url(#g)"/>
+  <circle cx="600" cy="9" r="4" fill="#EC4899"/>
+</svg>

@@ -1,0 +1,9 @@
+Exact arithmetic checks passed
+Variable-gain finite-grid identities passed
+Variable-gain max state difference: 3.73956e-12
+Spectra, transfer roots, convergence passed
+Square-root counts alpha=0.3: [6, 21, 67]
+Square-root counts alpha=0.5: [3, 12, 39]
+Square-root counts alpha=0.75: [1, 7, 26]
+Square-root counts alpha=1.0: [1, 5, 19]
+535 checks passed; data and verification_results.json written.

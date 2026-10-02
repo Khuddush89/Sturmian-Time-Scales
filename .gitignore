@@ -1,0 +1,36 @@
+# Python and development tools
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Regenerated numerical runs
+outputs/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Typesetting and local manuscript files
+*.tex
+*.pdf
+*.aux
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Local secrets
+.env
+.env.*
+!.env.example

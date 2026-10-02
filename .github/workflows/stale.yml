@@ -1,0 +1,36 @@
+name: Mark inactive discussions
+
+on:
+  schedule:
+    - cron: '27 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
+        with:
+          days-before-issue-stale: 90
+          days-before-pr-stale: 60
+          # Mark inactivity; keep unresolved scientific questions open.
+          days-before-issue-close: -1
+          days-before-pr-close: -1
+          stale-issue-label: inactive
+          stale-pr-label: inactive
+          exempt-issue-labels: 'bug,security,mathematics,pinned,help wanted'
+          exempt-pr-labels: 'security,mathematics,pinned'
+          exempt-all-milestones: true
+          remove-stale-when-updated: true
+          operations-per-run: 50
+          stale-issue-message: >-
+            This discussion has been inactive for 90 days. Please add an update
+            if it still needs attention. It will remain open for review.
+          stale-pr-message: >-
+            This pull request has been inactive for 60 days. Please share a
+            status update when possible. It will remain open for review.

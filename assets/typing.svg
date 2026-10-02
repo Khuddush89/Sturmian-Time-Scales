@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70" role="img" aria-labelledby="title desc">
+  <title id="title">Gauge reduction, spectra, and generalized zeros</title>
+  <desc id="desc">Animated typing heading with full static text when animation is unavailable.</desc>
+  <defs>
+    <linearGradient id="text"><stop stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#EC4899"/><stop offset="1" stop-color="#06B6D4"/></linearGradient>
+    <clipPath id="reveal"><rect x="54" y="0" width="900" height="70">
+      <animate attributeName="width" values="0;900;900;0" keyTimes="0;0.55;0.9;1" dur="9s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+  <g clip-path="url(#reveal)">
+    <text x="500" y="44" text-anchor="middle" fill="url(#text)" font-family="DejaVu Sans Mono,monospace" font-size="23" font-weight="700">Gauge reduction · spectra · generalized zeros</text>
+  </g>
+  <rect x="943" y="24" width="3" height="25" fill="#06B6D4">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

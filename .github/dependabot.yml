@@ -1,0 +1,28 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 5
+    labels: [dependencies]
+    groups:
+      scientific-python:
+        patterns: [numpy, scipy, matplotlib]
+      development:
+        patterns: [pytest, ruff, build, PyYAML, setuptools]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:30'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 5
+    labels: [dependencies, ci]
+    groups:
+      github-actions:
+        patterns: ['*']

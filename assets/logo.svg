@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Sturmian Time Scales logo</title>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#EC4899"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>
+  <rect x="2" y="2" width="156" height="156" rx="34" fill="#0D1020" stroke="url(#g)" stroke-width="3"/>
+  <path d="M80 30 L123 113 H37Z" fill="none" stroke="url(#g)" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M37 133 H123" stroke="#465170" stroke-width="2"/>
+  <circle cx="44" cy="133" r="4" fill="#8B5CF6"/><circle cx="71" cy="133" r="4" fill="#EC4899"/><circle cx="116" cy="133" r="4" fill="#06B6D4"/>
+</svg>

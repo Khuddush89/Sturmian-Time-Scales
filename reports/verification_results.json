@@ -1,0 +1,2757 @@
+{
+  "date": "2026-10-02",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "passed": true,
+  "check_count": 535,
+  "categories": {
+    "exact": 38,
+    "variable-grid-00": 15,
+    "variable-grid-01": 15,
+    "variable-grid-02": 15,
+    "variable-grid-03": 15,
+    "variable-grid-04": 15,
+    "variable-grid-05": 15,
+    "variable-grid-06": 15,
+    "variable-grid-07": 15,
+    "variable-grid-08": 15,
+    "variable-grid-09": 15,
+    "variable-grid-10": 15,
+    "variable-grid-11": 15,
+    "variable-grid-12": 15,
+    "variable-grid-13": 15,
+    "variable-grid-14": 15,
+    "variable-grid-15": 15,
+    "tables": 31,
+    "spectral": 177,
+    "pulse": 7,
+    "refinement": 6,
+    "hybrid": 9,
+    "variable-continuum": 1,
+    "zeros": 17,
+    "Riccati": 9
+  },
+  "checks": [
+    {
+      "name": "exact/gauge-solution-0",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-0",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-0",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-0",
+      "passed": true
+    },
+    {
+      "name": "exact/gauge-solution-1",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-1",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-1",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-1",
+      "passed": true
+    },
+    {
+      "name": "exact/gauge-solution-2",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-2",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-2",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-2",
+      "passed": true
+    },
+    {
+      "name": "exact/gauge-solution-3",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-3",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-3",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-3",
+      "passed": true
+    },
+    {
+      "name": "exact/gauge-solution-4",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-4",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-4",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-4",
+      "passed": true
+    },
+    {
+      "name": "exact/gauge-solution-5",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-5",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-5",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-5",
+      "passed": true
+    },
+    {
+      "name": "exact/gauge-solution-6",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-y-6",
+      "passed": true
+    },
+    {
+      "name": "exact/harmonic-gauge-6",
+      "passed": true
+    },
+    {
+      "name": "exact/Abel-6",
+      "passed": true
+    },
+    {
+      "name": "exact/Green-determinant",
+      "passed": true
+    },
+    {
+      "name": "exact/Green-matrix",
+      "passed": true
+    },
+    {
+      "name": "exact/Green-forcing-solution",
+      "passed": true
+    },
+    {
+      "name": "exact/Green-original-equation",
+      "passed": true
+    },
+    {
+      "name": "exact/characteristic-polynomial",
+      "passed": true
+    },
+    {
+      "name": "exact/threshold-principal",
+      "passed": true
+    },
+    {
+      "name": "exact/threshold-cutoff",
+      "passed": true
+    },
+    {
+      "name": "exact/conformable-integral",
+      "passed": true
+    },
+    {
+      "name": "exact/first-order-shifted",
+      "passed": true
+    },
+    {
+      "name": "exact/first-order-unshifted",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-00/gauge",
+      "passed": true,
+      "residual": 1.6044933188650405e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/reduction",
+      "passed": true,
+      "residual": 2.448448105419018e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/Lagrange",
+      "passed": true,
+      "residual": 3.7738469052359457e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/completion-square",
+      "passed": true,
+      "residual": 2.3568577764611164e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/Riccati",
+      "passed": true,
+      "residual": 6.938893903907228e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/Picone",
+      "passed": true,
+      "residual": 1.178428888230558e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/integral-inverse",
+      "passed": true,
+      "residual": 1.002405133060915e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/integral-of-derivative",
+      "passed": true,
+      "residual": 1.3084521103100876e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/integration-by-parts-1",
+      "passed": true,
+      "residual": 2.1915257688908768e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/integration-by-parts-2",
+      "passed": true,
+      "residual": 6.574577306672631e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/Leibniz",
+      "passed": true,
+      "residual": 8.943910347572761e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/Green",
+      "passed": true,
+      "residual": 1.249000902703301e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-00/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-01/gauge",
+      "passed": true,
+      "residual": 3.1053134559850147e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/reduction",
+      "passed": true,
+      "residual": 1.9686443090604153e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/Lagrange",
+      "passed": true,
+      "residual": 4.681421024198286e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/completion-square",
+      "passed": true,
+      "residual": 1.517317892829295e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/Riccati",
+      "passed": true,
+      "residual": 2.282896094385478e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/Picone",
+      "passed": true,
+      "residual": 4.551953678487885e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/integral-inverse",
+      "passed": true,
+      "residual": 3.0964103446323296e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/integral-of-derivative",
+      "passed": true,
+      "residual": 2.7736543715183825e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/integration-by-parts-1",
+      "passed": true,
+      "residual": 4.950932187771546e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/integration-by-parts-2",
+      "passed": true,
+      "residual": 1.9803728751086188e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/Leibniz",
+      "passed": true,
+      "residual": 1.671175876639634e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/Green",
+      "passed": true,
+      "residual": 3.0531133177191805e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-01/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-02/gauge",
+      "passed": true,
+      "residual": 9.038165796775973e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/reduction",
+      "passed": true,
+      "residual": 1.1246955467923603e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/Lagrange",
+      "passed": true,
+      "residual": 1.4471565175461096e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/energy",
+      "passed": true,
+      "residual": 1.1938977193370436e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/completion-square",
+      "passed": true,
+      "residual": 5.215324694147388e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/Riccati",
+      "passed": true,
+      "residual": 4.718447854656915e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/Picone",
+      "passed": true,
+      "residual": 3.911493520610541e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/integral-inverse",
+      "passed": true,
+      "residual": 8.632733161025488e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/integral-of-derivative",
+      "passed": true,
+      "residual": 5.109890367284427e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/integration-by-parts-1",
+      "passed": true,
+      "residual": 4.3907965714183673e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/integration-by-parts-2",
+      "passed": true,
+      "residual": 1.4635988571394557e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/Leibniz",
+      "passed": true,
+      "residual": 1.4363386886092483e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/Green",
+      "passed": true,
+      "residual": 1.942890293094024e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-02/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-03/gauge",
+      "passed": true,
+      "residual": 1.7137918863482296e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/reduction",
+      "passed": true,
+      "residual": 3.915346231814213e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/Lagrange",
+      "passed": true,
+      "residual": 1.7804035937675663e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/energy",
+      "passed": true,
+      "residual": 3.29619041069445e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/completion-square",
+      "passed": true,
+      "residual": 2.9857696893335875e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/Riccati",
+      "passed": true,
+      "residual": 4.440892098500626e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/Picone",
+      "passed": true,
+      "residual": 5.971539378667174e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/integral-inverse",
+      "passed": true,
+      "residual": 5.105363042009873e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/integral-of-derivative",
+      "passed": true,
+      "residual": 3.077113012923107e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/integration-by-parts-1",
+      "passed": true,
+      "residual": 4.990640223384614e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/integration-by-parts-2",
+      "passed": true,
+      "residual": 3.8023925511501826e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/Leibniz",
+      "passed": true,
+      "residual": 5.441678055808486e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/Green",
+      "passed": true,
+      "residual": 1.8041124150158794e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-03/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-04/gauge",
+      "passed": true,
+      "residual": 1.6493283647897938e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/reduction",
+      "passed": true,
+      "residual": 1.609174847242338e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/Lagrange",
+      "passed": true,
+      "residual": 1.0191259969875477e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/energy",
+      "passed": true,
+      "residual": 1.2953697345918306e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/completion-square",
+      "passed": true,
+      "residual": 2.178132720405299e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/Riccati",
+      "passed": true,
+      "residual": 7.494005416219807e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/Picone",
+      "passed": true,
+      "residual": 4.356265440810597e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/integral-inverse",
+      "passed": true,
+      "residual": 1.1728007874041204e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/integral-of-derivative",
+      "passed": true,
+      "residual": 3.7886686616754225e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/integration-by-parts-1",
+      "passed": true,
+      "residual": 8.510822635155672e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/integration-by-parts-2",
+      "passed": true,
+      "residual": 6.079159025111196e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/Leibniz",
+      "passed": true,
+      "residual": 7.801507941796423e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/Green",
+      "passed": true,
+      "residual": 1.1102230246251565e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-04/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-05/gauge",
+      "passed": true,
+      "residual": 2.3600900243728402e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/reduction",
+      "passed": true,
+      "residual": 1.4852237306828323e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/Lagrange",
+      "passed": true,
+      "residual": 1.6400701507533147e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/energy",
+      "passed": true,
+      "residual": 2.6935802738066745e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/completion-square",
+      "passed": true,
+      "residual": 4.512952517193183e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/Riccati",
+      "passed": true,
+      "residual": 6.106226635438361e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/Picone",
+      "passed": true,
+      "residual": 3.3847143878948874e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/integral-inverse",
+      "passed": true,
+      "residual": 1.5284783217641547e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/integral-of-derivative",
+      "passed": true,
+      "residual": 6.178622437309403e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/integration-by-parts-1",
+      "passed": true,
+      "residual": 5.875228086617245e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/integration-by-parts-2",
+      "passed": true,
+      "residual": 1.349714560439097e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/Leibniz",
+      "passed": true,
+      "residual": 8.2673661450221e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/Green",
+      "passed": true,
+      "residual": 6.245004513516506e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-05/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-06/gauge",
+      "passed": true,
+      "residual": 1.5432032148442092e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/reduction",
+      "passed": true,
+      "residual": 3.0100455868792146e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/Lagrange",
+      "passed": true,
+      "residual": 1.507766242738068e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/completion-square",
+      "passed": true,
+      "residual": 2.486372848306763e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/Riccati",
+      "passed": true,
+      "residual": 8.81239525796218e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/Picone",
+      "passed": true,
+      "residual": 9.945491393227052e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/integral-inverse",
+      "passed": true,
+      "residual": 3.3306690738754696e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/integral-of-derivative",
+      "passed": true,
+      "residual": 7.749890093471816e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/integration-by-parts-1",
+      "passed": true,
+      "residual": 8.881784197001252e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/integration-by-parts-2",
+      "passed": true,
+      "residual": 4.579669976578771e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/Leibniz",
+      "passed": true,
+      "residual": 1.5934912991054804e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/Green",
+      "passed": true,
+      "residual": 2.0816681711721685e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-06/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-07/gauge",
+      "passed": true,
+      "residual": 1.179613095589139e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/reduction",
+      "passed": true,
+      "residual": 1.9882719507489537e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/Lagrange",
+      "passed": true,
+      "residual": 1.184691586980964e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/completion-square",
+      "passed": true,
+      "residual": 1.2363234923080645e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/Riccati",
+      "passed": true,
+      "residual": 6.245004513516506e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/Picone",
+      "passed": true,
+      "residual": 3.7089704769241936e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/integral-inverse",
+      "passed": true,
+      "residual": 8.037164943362157e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/integral-of-derivative",
+      "passed": true,
+      "residual": 3.3640356455294434e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/integration-by-parts-1",
+      "passed": true,
+      "residual": 2.998838577867066e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/integration-by-parts-2",
+      "passed": true,
+      "residual": 2.741795271192746e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/Leibniz",
+      "passed": true,
+      "residual": 9.655040640254279e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/Green",
+      "passed": true,
+      "residual": 1.3877787807814457e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-07/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-08/gauge",
+      "passed": true,
+      "residual": 2.7583104129299232e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/reduction",
+      "passed": true,
+      "residual": 2.259615347020987e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/Lagrange",
+      "passed": true,
+      "residual": 1.4723953171721519e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/energy",
+      "passed": true,
+      "residual": 1.5148370746551785e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/completion-square",
+      "passed": true,
+      "residual": 1.74361619340559e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/Riccati",
+      "passed": true,
+      "residual": 1.0269562977782698e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/Picone",
+      "passed": true,
+      "residual": 3.4872323868111783e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/integral-inverse",
+      "passed": true,
+      "residual": 1.8454309750021333e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/integral-of-derivative",
+      "passed": true,
+      "residual": 3.063949572083414e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/integration-by-parts-1",
+      "passed": true,
+      "residual": 8.254595005063012e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/integration-by-parts-2",
+      "passed": true,
+      "residual": 5.30652536039765e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/integral-reversal",
+      "passed": true,
+      "residual": 4.163336342344337e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/Leibniz",
+      "passed": true,
+      "residual": 6.685400940194977e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/Green",
+      "passed": true,
+      "residual": 2.914335439641036e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-08/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-09/gauge",
+      "passed": true,
+      "residual": 6.320102671368122e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/reduction",
+      "passed": true,
+      "residual": 1.5223123237859986e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/Lagrange",
+      "passed": true,
+      "residual": 1.0041870095050096e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/completion-square",
+      "passed": true,
+      "residual": 3.693660742031454e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/Riccati",
+      "passed": true,
+      "residual": 1.0824674490095276e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/Picone",
+      "passed": true,
+      "residual": 2.4624404946876356e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/integral-inverse",
+      "passed": true,
+      "residual": 4.1755547107953194e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/integral-of-derivative",
+      "passed": true,
+      "residual": 3.8001215772723286e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/integration-by-parts-1",
+      "passed": true,
+      "residual": 2.970473062237385e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/integration-by-parts-2",
+      "passed": true,
+      "residual": 2.9704730622373843e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/Leibniz",
+      "passed": true,
+      "residual": 8.872201779805369e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/Green",
+      "passed": true,
+      "residual": 3.608224830031759e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-09/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-10/gauge",
+      "passed": true,
+      "residual": 2.2158396957571678e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/reduction",
+      "passed": true,
+      "residual": 2.5131286753867564e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/Lagrange",
+      "passed": true,
+      "residual": 3.285690221122707e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/completion-square",
+      "passed": true,
+      "residual": 2.272858456894561e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/Riccati",
+      "passed": true,
+      "residual": 1.2351231148954867e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/Picone",
+      "passed": true,
+      "residual": 4.545716913789122e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/integral-inverse",
+      "passed": true,
+      "residual": 3.0935600783029487e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/integral-of-derivative",
+      "passed": true,
+      "residual": 4.54679156255115e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/integration-by-parts-1",
+      "passed": true,
+      "residual": 3.3306690738754696e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/integration-by-parts-2",
+      "passed": true,
+      "residual": 4.440892098500626e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/Leibniz",
+      "passed": true,
+      "residual": 3.3623096555432173e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/Green",
+      "passed": true,
+      "residual": 5.273559366969494e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-10/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-11/gauge",
+      "passed": true,
+      "residual": 2.4004027790435235e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/reduction",
+      "passed": true,
+      "residual": 1.5808881717680644e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/Lagrange",
+      "passed": true,
+      "residual": 2.879287388278978e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/completion-square",
+      "passed": true,
+      "residual": 3.642201163018116e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/Riccati",
+      "passed": true,
+      "residual": 9.298117831235686e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/Picone",
+      "passed": true,
+      "residual": 5.463301744527173e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/integral-inverse",
+      "passed": true,
+      "residual": 5.03350457361415e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/integral-of-derivative",
+      "passed": true,
+      "residual": 4.474971768333307e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/integration-by-parts-1",
+      "passed": true,
+      "residual": 3.8140394533981354e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/integration-by-parts-2",
+      "passed": true,
+      "residual": 3.814039453398135e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/Leibniz",
+      "passed": true,
+      "residual": 8.915079859074083e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/Green",
+      "passed": true,
+      "residual": 8.326672684688674e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-11/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-12/gauge",
+      "passed": true,
+      "residual": 9.356531457558394e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/reduction",
+      "passed": true,
+      "residual": 1.0562707228818292e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/Lagrange",
+      "passed": true,
+      "residual": 3.6484805929476063e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/energy",
+      "passed": true,
+      "residual": 2.538849878633462e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/completion-square",
+      "passed": true,
+      "residual": 2.777910177585889e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/Riccati",
+      "passed": true,
+      "residual": 5.551115123125783e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/Picone",
+      "passed": true,
+      "residual": 2.0834326331894165e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/integral-inverse",
+      "passed": true,
+      "residual": 2.711106688607492e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/integral-of-derivative",
+      "passed": true,
+      "residual": 3.979778089218586e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/integration-by-parts-1",
+      "passed": true,
+      "residual": 3.539328824463706e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/integration-by-parts-2",
+      "passed": true,
+      "residual": 1.3272483091738896e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/Leibniz",
+      "passed": true,
+      "residual": 1.9576160327284817e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/Green",
+      "passed": true,
+      "residual": 1.942890293094024e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-12/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-13/gauge",
+      "passed": true,
+      "residual": 1.409893307565564e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/reduction",
+      "passed": true,
+      "residual": 3.4467365523556276e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/Lagrange",
+      "passed": true,
+      "residual": 1.0901707887540072e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/completion-square",
+      "passed": true,
+      "residual": 1.520181717211048e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/Riccati",
+      "passed": true,
+      "residual": 1.0547118733938987e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/Picone",
+      "passed": true,
+      "residual": 1.9002271465138103e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/integral-inverse",
+      "passed": true,
+      "residual": 8.934724432559708e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/integral-of-derivative",
+      "passed": true,
+      "residual": 2.1525568904099393e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/integration-by-parts-1",
+      "passed": true,
+      "residual": 3.2596121450501794e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/integration-by-parts-2",
+      "passed": true,
+      "residual": 3.2596121450501804e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/integral-reversal",
+      "passed": true,
+      "residual": 8.326672684688674e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/Leibniz",
+      "passed": true,
+      "residual": 2.1130740048813288e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/Green",
+      "passed": true,
+      "residual": 3.3306690738754696e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-13/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-14/gauge",
+      "passed": true,
+      "residual": 8.423006187834673e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/reduction",
+      "passed": true,
+      "residual": 1.8495113844568697e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/Lagrange",
+      "passed": true,
+      "residual": 2.3696564090865464e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/energy",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/completion-square",
+      "passed": true,
+      "residual": 4.3623511556208825e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/Riccati",
+      "passed": true,
+      "residual": 1.27675647831893e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/Picone",
+      "passed": true,
+      "residual": 4.3623511556208825e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/integral-inverse",
+      "passed": true,
+      "residual": 6.469244170937312e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/integral-of-derivative",
+      "passed": true,
+      "residual": 4.367944476587472e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/integration-by-parts-1",
+      "passed": true,
+      "residual": 3.7212932388693897e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/integration-by-parts-2",
+      "passed": true,
+      "residual": 5.581939858304085e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/integral-reversal",
+      "passed": true,
+      "residual": 5.551115123125783e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/Leibniz",
+      "passed": true,
+      "residual": 9.823303588880693e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/Green",
+      "passed": true,
+      "residual": 2.3592239273284576e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-14/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "variable-grid-15/gauge",
+      "passed": true,
+      "residual": 1.8516176952066052e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/reduction",
+      "passed": true,
+      "residual": 8.424084632428585e-17,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/Lagrange",
+      "passed": true,
+      "residual": 4.865174520796883e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/energy",
+      "passed": true,
+      "residual": 1.3824078202114697e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/completion-square",
+      "passed": true,
+      "residual": 4.697572176652891e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/Riccati",
+      "passed": true,
+      "residual": 5.342948306008566e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/Picone",
+      "passed": true,
+      "residual": 1.1743930441632228e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/integral-inverse",
+      "passed": true,
+      "residual": 1.4008927185388652e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/integral-of-derivative",
+      "passed": true,
+      "residual": 5.573982760870914e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/integration-by-parts-1",
+      "passed": true,
+      "residual": 3.199634320667884e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/integration-by-parts-2",
+      "passed": true,
+      "residual": 7.46581341489173e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/integral-reversal",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/Leibniz",
+      "passed": true,
+      "residual": 3.594193886456094e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/Green",
+      "passed": true,
+      "residual": 5.551115123125783e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "variable-grid-15/Green-sign",
+      "passed": true
+    },
+    {
+      "name": "tables/five-point-eigenvalues-1.0",
+      "passed": true,
+      "residual": 8.922805437373729e-07,
+      "tolerance": 1.1414722877965821e-06
+    },
+    {
+      "name": "tables/five-point-ratio-1.0",
+      "passed": true
+    },
+    {
+      "name": "tables/five-point-eigenvalues-0.9",
+      "passed": true,
+      "residual": 1.3818269920407121e-06,
+      "tolerance": 1.4479560957130978e-06
+    },
+    {
+      "name": "tables/five-point-ratio-0.9",
+      "passed": true
+    },
+    {
+      "name": "tables/five-point-eigenvalues-0.8",
+      "passed": true,
+      "residual": 1.22849689906743e-06,
+      "tolerance": 1.8977049948062044e-06
+    },
+    {
+      "name": "tables/five-point-ratio-0.8",
+      "passed": true
+    },
+    {
+      "name": "tables/five-point-eigenvalues-0.6",
+      "passed": true,
+      "residual": 1.8992399200037406e-06,
+      "tolerance": 3.7753117381645015e-06
+    },
+    {
+      "name": "tables/five-point-ratio-0.6",
+      "passed": true
+    },
+    {
+      "name": "tables/five-point-eigenvalues-0.4",
+      "passed": true,
+      "residual": 1.042541679148575e-05,
+      "tolerance": 1.1123343882617138e-05
+    },
+    {
+      "name": "tables/five-point-ratio-0.4",
+      "passed": true
+    },
+    {
+      "name": "tables/Lyapunov-harmonic15-0.6",
+      "passed": true,
+      "residual": 3.161536808882204e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-harmonic15-0.8",
+      "passed": true,
+      "residual": 1.9975909658853652e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-harmonic15-1.0",
+      "passed": true,
+      "residual": 3.123854995834563e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-sqrt25-0.6",
+      "passed": true,
+      "residual": 4.41591136350894e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-sqrt25-0.8",
+      "passed": true,
+      "residual": 1.903700748862036e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-sqrt25-1.0",
+      "passed": true,
+      "residual": 3.5804662347871385e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-alternating17-0.6",
+      "passed": true,
+      "residual": 7.176558936450306e-06,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-alternating17-0.8",
+      "passed": true,
+      "residual": 9.151338566937284e-07,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-alternating17-1.0",
+      "passed": true,
+      "residual": 3.2545769977687655e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-half_uniform-0.6",
+      "passed": true,
+      "residual": 3.797125167004367e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-half_uniform-0.8",
+      "passed": true,
+      "residual": 3.797125173932159e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-half_uniform-1.0",
+      "passed": true,
+      "residual": 3.797125165405646e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-integer-0.6",
+      "passed": true,
+      "residual": 3.2590307021962417e-06,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-integer-0.8",
+      "passed": true,
+      "residual": 3.2590307146307396e-06,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-integer-1.0",
+      "passed": true,
+      "residual": 3.2590307164070964e-06,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "tables/Lyapunov-pulse-0.6",
+      "passed": true,
+      "residual": 2.589701592050873e-06,
+      "tolerance": 5.033444654193443e-06
+    },
+    {
+      "name": "tables/pulse-principal-positivity-0.6",
+      "passed": true
+    },
+    {
+      "name": "tables/Lyapunov-pulse-0.8",
+      "passed": true,
+      "residual": 2.002298223474048e-06,
+      "tolerance": 5.157203599661635e-06
+    },
+    {
+      "name": "tables/pulse-principal-positivity-0.8",
+      "passed": true
+    },
+    {
+      "name": "tables/Lyapunov-pulse-1.0",
+      "passed": true,
+      "residual": 2.347673413860517e-06,
+      "tolerance": 5.216603051360425e-06
+    },
+    {
+      "name": "tables/pulse-principal-positivity-1.0",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/residual",
+      "passed": true,
+      "residual": 4.259764717224074e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/harmonic15/0.6/orthogonality",
+      "passed": true,
+      "residual": 1.3322676295501873e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.6/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/residual",
+      "passed": true,
+      "residual": 6.218762354469742e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/harmonic15/0.8/orthogonality",
+      "passed": true,
+      "residual": 1.99840144432528e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/0.8/monotonicity",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/residual",
+      "passed": true,
+      "residual": 4.979569026056348e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/harmonic15/1.0/orthogonality",
+      "passed": true,
+      "residual": 1.7763568394002473e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/harmonic15/1.0/monotonicity",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/residual",
+      "passed": true,
+      "residual": 7.421990579523336e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/sqrt25/0.6/orthogonality",
+      "passed": true,
+      "residual": 2.2204460492503083e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-14",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-15",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-16",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-17",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-18",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-19",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-20",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-21",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-22",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.6/nodes-23",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/residual",
+      "passed": true,
+      "residual": 6.399703179554918e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/sqrt25/0.8/orthogonality",
+      "passed": true,
+      "residual": 1.5543122344752174e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-14",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-15",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-16",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-17",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-18",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-19",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-20",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-21",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-22",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/nodes-23",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/0.8/monotonicity",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/residual",
+      "passed": true,
+      "residual": 5.124751534779672e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/sqrt25/1.0/orthogonality",
+      "passed": true,
+      "residual": 1.8873791418627634e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-14",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-15",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-16",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-17",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-18",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-19",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-20",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-21",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-22",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/nodes-23",
+      "passed": true
+    },
+    {
+      "name": "spectral/sqrt25/1.0/monotonicity",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/residual",
+      "passed": true,
+      "residual": 5.772077784513929e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/alternating17/0.6/orthogonality",
+      "passed": true,
+      "residual": 1.7763568394002473e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-14",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.6/nodes-15",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/residual",
+      "passed": true,
+      "residual": 5.743642203804767e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/alternating17/0.8/orthogonality",
+      "passed": true,
+      "residual": 1.998401444325278e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-14",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/nodes-15",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/0.8/monotonicity",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/residual",
+      "passed": true,
+      "residual": 5.80051410883574e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/alternating17/1.0/orthogonality",
+      "passed": true,
+      "residual": 1.2212453270876708e-15,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-1",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-2",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-3",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-4",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-5",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-6",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-7",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-8",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-9",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-10",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-11",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-12",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-13",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-14",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/nodes-15",
+      "passed": true
+    },
+    {
+      "name": "spectral/alternating17/1.0/monotonicity",
+      "passed": true
+    },
+    {
+      "name": "pulse/exact-threshold",
+      "passed": true,
+      "residual": 1.9292234476608883e-11,
+      "tolerance": 5e-11
+    },
+    {
+      "name": "pulse/independent-80-digit-threshold",
+      "passed": true,
+      "residual": 6.661338147750939e-16,
+      "tolerance": 3e-15
+    },
+    {
+      "name": "pulse/mesh-threshold-20",
+      "passed": true,
+      "residual": 4.340228176857863e-11,
+      "tolerance": 5e-11
+    },
+    {
+      "name": "pulse/mesh-threshold-40",
+      "passed": true,
+      "residual": 2.044919789057076e-12,
+      "tolerance": 5e-11
+    },
+    {
+      "name": "pulse/mesh-threshold-80",
+      "passed": true,
+      "residual": 9.173772852477668e-13,
+      "tolerance": 5e-11
+    },
+    {
+      "name": "pulse/mesh-threshold-160",
+      "passed": true,
+      "residual": 1.6275758518702332e-11,
+      "tolerance": 5e-11
+    },
+    {
+      "name": "pulse/mesh-threshold-320",
+      "passed": true,
+      "residual": 3.3729019577322106e-11,
+      "tolerance": 5e-11
+    },
+    {
+      "name": "refinement/spectrum-25",
+      "passed": true,
+      "residual": 2.9936812664848155e-14,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "refinement/spectrum-50",
+      "passed": true,
+      "residual": 1.3156615767576961e-14,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "refinement/spectrum-100",
+      "passed": true,
+      "residual": 9.798586689525674e-13,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "refinement/spectrum-200",
+      "passed": true,
+      "residual": 2.731359413420793e-12,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "refinement/spectrum-400",
+      "passed": true,
+      "residual": 1.0324667820308332e-11,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "refinement/spectrum-800",
+      "passed": true,
+      "residual": 2.2337364633507233e-11,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "hybrid/refinement-0.7",
+      "passed": true
+    },
+    {
+      "name": "hybrid/reported-start-0.7",
+      "passed": true,
+      "residual": 1.2852689616949312e-05,
+      "tolerance": 5.1e-05
+    },
+    {
+      "name": "hybrid/reported-end-0.7",
+      "passed": true,
+      "residual": 1.3366859608304575e-07,
+      "tolerance": 6e-07
+    },
+    {
+      "name": "hybrid/refinement-0.8",
+      "passed": true
+    },
+    {
+      "name": "hybrid/reported-start-0.8",
+      "passed": true,
+      "residual": 1.6780282943379757e-06,
+      "tolerance": 5.1e-06
+    },
+    {
+      "name": "hybrid/reported-end-0.8",
+      "passed": true,
+      "residual": 1.1563696510004428e-07,
+      "tolerance": 6e-07
+    },
+    {
+      "name": "hybrid/refinement-0.9",
+      "passed": true
+    },
+    {
+      "name": "hybrid/reported-start-0.9",
+      "passed": true,
+      "residual": 4.81695750510075e-06,
+      "tolerance": 5.1e-06
+    },
+    {
+      "name": "hybrid/reported-end-0.9",
+      "passed": true,
+      "residual": 4.980921506301248e-07,
+      "tolerance": 6e-07
+    },
+    {
+      "name": "variable-continuum/state-agreement",
+      "passed": true,
+      "residual": 3.739564213844915e-12,
+      "tolerance": 1e-10
+    },
+    {
+      "name": "zeros/sqrt-0.3-10",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.3-100",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.3-1000",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.5-10",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.5-100",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.5-1000",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.75-10",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.75-100",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-0.75-1000",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-1.0-10",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-1.0-100",
+      "passed": true
+    },
+    {
+      "name": "zeros/sqrt-1.0-1000",
+      "passed": true
+    },
+    {
+      "name": "zeros/Euler-six-differences",
+      "passed": true
+    },
+    {
+      "name": "zeros/Euler-80-digit-0.34",
+      "passed": true
+    },
+    {
+      "name": "zeros/Euler-80-digit-0.3334",
+      "passed": true
+    },
+    {
+      "name": "zeros/Euler-80-digit-0.333334",
+      "passed": true
+    },
+    {
+      "name": "zeros/Euler-80-digit-0.33333334",
+      "passed": true
+    },
+    {
+      "name": "Riccati/crossing-time-1.0",
+      "passed": true,
+      "residual": 1.67580833905684e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "Riccati/first-sign-loss-1.0",
+      "passed": true
+    },
+    {
+      "name": "Riccati/reported-denominator-1.0",
+      "passed": true
+    },
+    {
+      "name": "Riccati/crossing-time-0.85",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "Riccati/first-sign-loss-0.85",
+      "passed": true
+    },
+    {
+      "name": "Riccati/reported-denominator-0.85",
+      "passed": true
+    },
+    {
+      "name": "Riccati/crossing-time-0.7",
+      "passed": true,
+      "residual": 0.0,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "Riccati/first-sign-loss-0.7",
+      "passed": true
+    },
+    {
+      "name": "Riccati/reported-denominator-0.7",
+      "passed": true
+    }
+  ],
+  "scope": "Exact finite arithmetic and finite numerical assertions; not a proof of infinite-horizon theorems."
+}

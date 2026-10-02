@@ -1,0 +1,5 @@
+# Numerical-library versions used for the bundled reference run.
+# Pin direct dependencies; this is not a transitive dependency lock.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
